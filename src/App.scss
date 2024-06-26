@@ -21,7 +21,7 @@
   color: var(--base-color);
 
   @media screen and (max-width: 700px) {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-top: 1vh;
     width: 300px;
   }
@@ -33,7 +33,7 @@
   font-optical-sizing: auto;
 
   @media screen and (max-width: 700px) {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     margin-top: 1vh;
     width: 300px;
   }
@@ -46,7 +46,7 @@
   font-size: 1.7rem;
 
   @media screen and (max-width: 700px) {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 1vh;
     width: 300px;
   }
@@ -72,10 +72,10 @@
   }
 
   @media screen and (max-width: 700px) {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 2vh;
     height: 100px;
-    width: 200px;
+    width: 150px;
   }
 }
 
@@ -93,9 +93,25 @@
   }
 
   @media screen and (max-width: 700px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 3vh;
     height: 100px;
     width: 200px;
   }
+}
+
+.app__api-txt{
+  
+
+  a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: 0.6rem;
+    margin-top: 7vh;
+  }
+
 }

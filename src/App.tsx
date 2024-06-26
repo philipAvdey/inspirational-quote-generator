@@ -51,6 +51,7 @@ function App() {
         <a className="app__wiki-link" href={`https://en.wikipedia.org/wiki/${author}`} target="_blank">
           Click here to learn more about this person!
         </a>
+        <p className="app__api-txt">Created using <a href='https://github.com/lukePeavey/quotable'>Quotable API</a></p>
       </div>
     </>
   );
